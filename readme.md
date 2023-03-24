@@ -13,25 +13,23 @@
 
 ## Макет
 
-header
-![альтернативный текст](img/screen1.png)
+### header
+![альтернативный текст](img/header.png)
 ```
-    header.header>a>img.header_icon^ul.header__list>li.header__item*3^img.header_burger
+    header.header>a.header__link>img.header__icon^ul.header__list>li.header__item*3^img.header__burger
 ```
-![альтернативный текст](img/screen1.png)
-form
+### form
+![альтернативный текст](img/form.png)
 ```
-    form.form>p.form__title+p.description+input.form__input+button.form_button
+    form.form>p.form__title+p.description+input.form__input+button.form__button
 ```
-![альтернативный текст](img/screen1.png)
-card
+### card
+![альтернативный текст](img/card.png)
 ```
-    div.card>img.card_icon+p.card_title
+    div.card>img.card__icon+p.card__title
 ```
-
-### Форма
-
-![альтернативный текст](img/screen1.png)
-
-
-
+### footer
+![альтернативный текст](img/footer.png)
+```
+    footer.footer>ul.footer__list*4>li.footer__item>p.footer__title^li.footer__item*4>a.footer__link
+```
